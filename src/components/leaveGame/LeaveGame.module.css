@@ -1,0 +1,76 @@
+.container {
+    position: relative;
+}
+
+.helpButton {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), #020230);
+    border: 3px solid #ffc800;
+    position: relative;
+}
+
+.textIcon {
+    font-size: large;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+/* .modalContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    z-index: 1000;
+}
+
+.modalMainContainer {
+    height: 40vh;
+    width: 90%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), #020230);
+    border-radius: 10px;
+    border: 3px solid #ffc800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.modalMainContainer h1 {
+    color: white
+}
+
+.buttonContainer {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.choiceButton {
+    color: #ffc800;
+    font-size: 24px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), #020230);
+    border-radius: 10px;
+    border: 3px solid #ffc800;
+    height: 60px;
+    width: 45%;
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5px;
+}
+
+.choiceButton:hover {
+    background: linear-gradient(to bottom, rgba(122, 120, 120, 0.7), #535355);
+    border: 3px solid #c5baba;
+}
+
+.choiceButton.active {
+    background: linear-gradient(to bottom, #d3cecef1, #535355);
+    border: 3px solid #c5baba;
+} */
