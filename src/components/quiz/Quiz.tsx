@@ -55,9 +55,7 @@ const Quiz: FC<Question & stopTimer> = (props) => {
     wait.play();
     props.setStopTimer(true);
 
-    if (e.target instanceof Element) {
-      let classList = e.target.classList;
-      classList.add(styles.active);
+    const handleWaitingResponse = (classList: DOMTokenList) => {
       if (props.correct_answer === i) {
         if (awardCounter! <= 5) {
           setTimeout(() => {
@@ -192,6 +190,12 @@ const Quiz: FC<Question & stopTimer> = (props) => {
           }, 20000);
         }
       }
+    };
+
+    if (e.target instanceof Element) {
+      let classList = e.target.classList;
+      classList.add(styles.active);
+      handleWaitingResponse(classList);
     }
   };
 
